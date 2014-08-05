@@ -1,0 +1,3 @@
+[submodule "Vendor/openal_soft"]
+	path = Vendor/openal_soft
+	url = git@github.com:uberpixel/openal-soft.git

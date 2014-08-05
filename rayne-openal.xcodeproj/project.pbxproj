@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D55891CE1985B07A0044DEF7 /* RALAudioListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D55891C81985B07A0044DEF7 /* RALAudioListener.cpp */; };
+		D55891CF1985B07A0044DEF7 /* RALAudioListener.h in Headers */ = {isa = PBXBuildFile; fileRef = D55891C91985B07A0044DEF7 /* RALAudioListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D55891D01985B07A0044DEF7 /* RALAudioSource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D55891CA1985B07A0044DEF7 /* RALAudioSource.cpp */; };
+		D55891D11985B07A0044DEF7 /* RALAudioSource.h in Headers */ = {isa = PBXBuildFile; fileRef = D55891CB1985B07A0044DEF7 /* RALAudioSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D55891D21985B07A0044DEF7 /* RALAudioWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D55891CC1985B07A0044DEF7 /* RALAudioWorld.cpp */; };
+		D55891D31985B07A0044DEF7 /* RALAudioWorld.h in Headers */ = {isa = PBXBuildFile; fileRef = D55891CD1985B07A0044DEF7 /* RALAudioWorld.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5D12143198EB6770014E30C /* RALAudioResourceAttachment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D12141198EB6770014E30C /* RALAudioResourceAttachment.cpp */; };
+		D5D12144198EB6770014E30C /* RALAudioResourceAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = D5D12142198EB6770014E30C /* RALAudioResourceAttachment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5D4B04F1991174400FAFA5B /* AL in Headers */ = {isa = PBXBuildFile; fileRef = D5D4B04E1991174400FAFA5B /* AL */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D55891C01985AFB50044DEF7 /* librayne-openal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "librayne-openal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D55891C81985B07A0044DEF7 /* RALAudioListener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RALAudioListener.cpp; sourceTree = "<group>"; };
+		D55891C91985B07A0044DEF7 /* RALAudioListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RALAudioListener.h; sourceTree = "<group>"; };
+		D55891CA1985B07A0044DEF7 /* RALAudioSource.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RALAudioSource.cpp; sourceTree = "<group>"; };
+		D55891CB1985B07A0044DEF7 /* RALAudioSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RALAudioSource.h; sourceTree = "<group>"; };
+		D55891CC1985B07A0044DEF7 /* RALAudioWorld.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RALAudioWorld.cpp; sourceTree = "<group>"; };
+		D55891CD1985B07A0044DEF7 /* RALAudioWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RALAudioWorld.h; sourceTree = "<group>"; };
+		D5D12141198EB6770014E30C /* RALAudioResourceAttachment.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RALAudioResourceAttachment.cpp; sourceTree = "<group>"; };
+		D5D12142198EB6770014E30C /* RALAudioResourceAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RALAudioResourceAttachment.h; sourceTree = "<group>"; };
+		D5D4B04E1991174400FAFA5B /* AL */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AL; path = Vendor/openal_soft/include/AL; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D55891BD1985AFB50044DEF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D55891B71985AFB50044DEF7 = {
+			isa = PBXGroup;
+			children = (
+				D5D4B04E1991174400FAFA5B /* AL */,
+				D55891C71985B07A0044DEF7 /* Classes */,
+				D55891C11985AFB50044DEF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D55891C11985AFB50044DEF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D55891C01985AFB50044DEF7 /* librayne-openal.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D55891C71985B07A0044DEF7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D55891C81985B07A0044DEF7 /* RALAudioListener.cpp */,
+				D55891C91985B07A0044DEF7 /* RALAudioListener.h */,
+				D55891CA1985B07A0044DEF7 /* RALAudioSource.cpp */,
+				D55891CB1985B07A0044DEF7 /* RALAudioSource.h */,
+				D55891CC1985B07A0044DEF7 /* RALAudioWorld.cpp */,
+				D55891CD1985B07A0044DEF7 /* RALAudioWorld.h */,
+				D5D12141198EB6770014E30C /* RALAudioResourceAttachment.cpp */,
+				D5D12142198EB6770014E30C /* RALAudioResourceAttachment.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D55891BE1985AFB50044DEF7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D55891D11985B07A0044DEF7 /* RALAudioSource.h in Headers */,
+				D55891D31985B07A0044DEF7 /* RALAudioWorld.h in Headers */,
+				D5D12144198EB6770014E30C /* RALAudioResourceAttachment.h in Headers */,
+				D55891CF1985B07A0044DEF7 /* RALAudioListener.h in Headers */,
+				D5D4B04F1991174400FAFA5B /* AL in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D55891BF1985AFB50044DEF7 /* rayne-openal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D55891C41985AFB50044DEF7 /* Build configuration list for PBXNativeTarget "rayne-openal" */;
+			buildPhases = (
+				D5A8FD0B19911045008E014F /* ShellScript */,
+				D55891BC1985AFB50044DEF7 /* Sources */,
+				D55891BD1985AFB50044DEF7 /* Frameworks */,
+				D55891BE1985AFB50044DEF7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "rayne-openal";
+			productName = "rayne-openal";
+			productReference = D55891C01985AFB50044DEF7 /* librayne-openal.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D55891B81985AFB50044DEF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Überpixel";
+				TargetAttributes = {
+					D55891BF1985AFB50044DEF7 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = D55891BB1985AFB50044DEF7 /* Build configuration list for PBXProject "rayne-openal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D55891B71985AFB50044DEF7;
+			productRefGroup = D55891C11985AFB50044DEF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D55891BF1985AFB50044DEF7 /* rayne-openal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D5A8FD0B19911045008E014F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"${PROJECT_DIR}/Vendor/openal_soft/build\"\nPATH=$PATH:/usr/local/bin\ncmake -G 'Unix Makefiles' ..\nmake";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D55891BC1985AFB50044DEF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D55891CE1985B07A0044DEF7 /* RALAudioListener.cpp in Sources */,
+				D5D12143198EB6770014E30C /* RALAudioResourceAttachment.cpp in Sources */,
+				D55891D21985B07A0044DEF7 /* RALAudioWorld.cpp in Sources */,
+				D55891D01985B07A0044DEF7 /* RALAudioSource.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D55891C21985AFB50044DEF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode6-Beta4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		D55891C31985AFB50044DEF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode6-Beta4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		D55891C51985AFB50044DEF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"RN_BUILD_MODULE=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/include/rayne/,
+					"\"$(SRCROOT)/Vendor/openal_soft/include\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D55891C61985AFB50044DEF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"NDEBUG=1",
+					"RN_BUILD_MODULE=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/include/rayne/,
+					"\"$(SRCROOT)/Vendor/openal_soft/include\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D55891BB1985AFB50044DEF7 /* Build configuration list for PBXProject "rayne-openal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D55891C21985AFB50044DEF7 /* Debug */,
+				D55891C31985AFB50044DEF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D55891C41985AFB50044DEF7 /* Build configuration list for PBXNativeTarget "rayne-openal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D55891C51985AFB50044DEF7 /* Debug */,
+				D55891C61985AFB50044DEF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D55891B81985AFB50044DEF7 /* Project object */;
+}
