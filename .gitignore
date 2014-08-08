@@ -1,3 +1,7 @@
 rayne-openal.xcodeproj/project.xcworkspace/xcuserdata/
 rayne-openal.xcodeproj/xcuserdata
 .DS_Store
+Debug/
+Release/
+rayne-openal.sdf
+rayne-openal.v12.suo
