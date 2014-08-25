@@ -52,7 +52,7 @@ namespace RN
 			_owner = world;
 		}
 		
-		void AudioListener::RemoveFromWorld(AudioWorld *world)
+		void AudioListener::RemoveFromWorld()
 		{
 			_owner = nullptr;
 		}

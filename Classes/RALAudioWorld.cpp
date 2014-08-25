@@ -59,7 +59,13 @@ namespace RN
 		
 		void AudioWorld::SetAudioListener(AudioListener *attachment)
 		{
+			if(_audioListener)
+				_audioListener->RemoveFromWorld();
+			
 			_audioListener = attachment;
+			
+			if(_audioListener)
+				_audioListener->InsertIntoWorld(this);
 		}
 		
 		AudioSource *AudioWorld::PlaySound(AudioResource *resource)
