@@ -37,6 +37,7 @@ namespace RN
 			void Update(float delta) override;
 			
 			void Play();
+			void Stop();
 			void SetRepeat(bool repeat);
 			void SetPitch(float pitch);
 			void SetGain(float gain);

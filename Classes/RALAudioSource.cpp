@@ -89,6 +89,12 @@ namespace RN
 			_isPlaying = true;
 		}
 		
+		void AudioSource::Stop()
+		{
+			alSourceStop(_source);
+			_isPlaying = false;
+		}
+		
 		void AudioSource::Update(float delta)
 		{
 			Vector3 position = GetWorldPosition();
